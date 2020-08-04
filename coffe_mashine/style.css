@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+div{
+    text-align: center;
+position: relative;
+margin:0 auto;
+margin-top: 10px;
+width: 600px;
+height: 600px;
+border: 20px solid black;
+border-radius: 20px;
+
+}
+.fone{
+    position: absolute;
+    width: 600px;
+    height: 290px;
+    left:0;
+    top:310px;
+   
+}
+.water, .coffe {
+position: absolute;
+display: inline-block;
+width: 270px;
+height: 270px;
+border: 20px solid black;
+
+}
+.water{
+    text-align:center;
+    margin: 0;
+    border-radius: 0;    
+    background: blue;
+    left:0px;
+}
+.coffe {
+    text-align:center;
+    margin: 0;
+    border-radius: 0;    
+    background: chocolate;
+    right:0px;
+}
+p{
+    position: relative;    
+    z-index: 500;
+    top:-120px;
+    margin:0 auto;    
+    font:bold 70px arial;
+    text-align:center;    
+    color:#FFFFFF;
+    text-shadow:0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff, 0 0 50px #00d2ff, 0 0 60px #00d2ff, 0 0 70px #00d2ff;
+}
+
+button{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.918) ;
+    background: rgba(0, 0, 0, 0.733);
+    width: 150px;
+    height: 80px;
+    border: 4px solid rgba(12, 11, 11, 0.527);
+    font-size: 20px;
+    border-radius: 20px;
+    top: 350px;
+
+}
+button:hover{
+background: rgba(216, 216, 216, 0.527);
+color: black;
+border: 4px solid rgba(236, 231, 231, 0.945);
+cursor: pointer;
+}
+
+.americano {
+    left: 10px;
+}
+.espresso2 {
+    right: 10px;
+}
+.espresso {
+   right: 225px;
+}
+.fill_coffe, .fill_water {
+    top: 450px;
+}
+.fill_water {
+    left: 115px;
+}
+.fill_coffe {
+    right: 115px;
+}    
